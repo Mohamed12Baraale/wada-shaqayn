@@ -1,0 +1,87 @@
+.sidebar{
+    background-color: rgb(44, 43, 43);
+    width: 240px;
+    /* position: relative; */
+    color: white;
+    font-size: large;
+}
+.dashboard{
+    margin-top: auto;
+}
+.logo{
+    width: 60%;
+    margin-left: 15px;
+}
+.btn{
+    font-size: 20px;
+    outline: 0;
+}
+.btn:hover{
+    background-color: rgb(255, 166, 0);
+}
+.content{
+    background-color: rgb(223, 219, 219);
+    width: 100%;
+}
+.header{
+    background-color: white;
+}
+ 
+form.form-search {
+    width: 300px;
+    margin-right: 50px;
+    position: relative;}
+     .input {
+        border-radius: 50px;
+        
+    }
+    button.search-btn {
+        border-radius: 50px;
+        padding: 4px 25px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: #fda102;
+        border: 0;
+        color: #fff;
+    }
+
+.profile{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.left-icons{
+    margin-left: auto;
+    padding-right: 15px;
+    font-size: 20px;
+   
+}
+.left-icons:hover{
+cursor: pointer;
+
+}
+.submenuDropdown{
+    width: 45px;
+}
+.submenus{
+    display: none;
+}
+.submenuDropdown:hover .submenus{
+    display: block;
+
+}
+.user{
+    width: 50px;
+   margin-left: 10px;
+}
+/*charts starts */
+.charts{
+    display: flex;
+    
+    grid-gap: 20px;
+    width: 100%;
+    padding: 20px;
+    padding-top: 0;
+    justify-content: stretch;
+}
